@@ -1,4 +1,4 @@
-# Action Bar
+# Pad Boy
 A simple macropad consists of 5 switches, a rotary encoder, custom pcp, and a case
 
 ## Dimensions 
