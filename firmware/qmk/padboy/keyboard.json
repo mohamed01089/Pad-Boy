@@ -1,0 +1,38 @@
+{
+    "keyboard_name": "padboy",
+    "manufacturer": "Mohammed Hossam",
+    "maintainer": "mohamed01089",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0001",
+        "device_version": "1.0.0"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "diod_direction":"COL2ROW",
+    "matrix_pins": {
+        "direct":[
+            ["GP26", "GP3", "GP4", "GP2", "GP1", "GP27"]
+        ]
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "layouts": {
+        "LAYOUT":{
+            "layout": [
+                {"label": "SW1 Prev", "matrix": [0,0], "x": 0, "y": 0},
+                {"label": "SW2 Next", "matrix": [0,1], "x": 1, "y": 0},
+                {"label": "SW3 Play/Pause", "matrix": [0,2], "x": 2, "y": 0},
+                {"label": "SW4 Mute", "matrix": [0,3], "x": 0, "y": 1},
+                {"label": "SW5 A", "matrix": [0,4], "x": 1, "y": 1},
+                {"label": "Encoder Click", "matrix": [0,5], "x": 2, "y": 1}
+            ]
+        }
+    }
+}
